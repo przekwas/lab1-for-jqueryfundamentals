@@ -2,7 +2,7 @@
 //making my life easier
 let body = document.body;
 
-//create a button, text, and make it alert the page 
+//create a button, text, and make it alert the page
 let alertButton = document.createElement("button");
 let alertButtonText = document.createTextNode("1) DOM Alert Message Button");
 alertButton.appendChild(alertButtonText);
@@ -79,7 +79,7 @@ let myFriendList = document.getElementById("my-friend-list");
 
 //makes the button add my friends to the ul in the html page
 friendButton.addEventListener("click", function () {
-    for(let i = 0; i < myFriendArray.length; i++) {
+    for (let i = 0; i < myFriendArray.length; i++) {
         let myFriendListItem = document.createElement("li");
         let currentFriend = document.createTextNode(myFriendArray[i])
         myFriendListItem.appendChild(currentFriend)
